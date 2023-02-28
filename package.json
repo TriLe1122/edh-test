@@ -1,0 +1,16 @@
+
+  {
+    "name": "edh-test",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd edh-test.client && npm i",
+      "setup:server": "cd edh-test && npm i",
+      "start": "node edh-test/index.js"
+    },
+    "engines": {
+      "node": "^18.12.1"
+    }
+  }
+  
