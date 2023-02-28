@@ -6,7 +6,7 @@ export const api = Axios.create({
 })
 
 
-export const MTGAPI = Axios.create({
-  baseURL: "",
+export const scryFallAPI = Axios.create({
+  baseURL: "https://api.scryfall.com",
   timeout: 8000
 })
