@@ -5,6 +5,7 @@
 <script>
 import { onMounted } from "vue"
 import { cardsService } from "../services/CardsService.js"
+import Pop from "../utils/Pop.js"
 
 export default {
   setup() {

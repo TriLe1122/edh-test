@@ -8,5 +8,8 @@ export const api = Axios.create({
 
 export const scryFallAPI = Axios.create({
   baseURL: "https://api.scryfall.com",
-  timeout: 8000
+  // headers: {
+  //   "X-Scryfall-Card"
+  // },
+  timeout: 8000,
 })
