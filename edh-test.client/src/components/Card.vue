@@ -1,12 +1,13 @@
 <template>
   <div class="component">
 
-<img src="" alt="">
+<img :src="card.image_uris.large" alt="">
   </div>
 </template>
 
 
 <script>
+import { Card } from "../models/Card.js";
 export default {
   props: {
     card: {
