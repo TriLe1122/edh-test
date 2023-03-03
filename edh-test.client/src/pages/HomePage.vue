@@ -11,7 +11,7 @@ export default {
   setup() {
     async function getCards() {
       try {
-          await cardsService.getCards()
+          await cardsService.getSets
         } catch (error) {
           console.error('[]',error)
           Pop.error(error)
