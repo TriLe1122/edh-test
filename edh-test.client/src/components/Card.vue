@@ -1,7 +1,7 @@
 <template>
   <div class="component">
 
-<img :src="card.image_uris.large" alt="">
+<img :src="card.image_uris?.large" alt="">
   </div>
 </template>
 
