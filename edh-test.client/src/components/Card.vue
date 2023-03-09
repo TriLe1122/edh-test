@@ -1,7 +1,8 @@
 <template>
   <div class="component">
+    <p>{{ card.name }}</p>
 
-<img :src="card.image_uris?.large" alt="">
+<img :src="card.image_uris.large" alt="">
   </div>
 </template>
 

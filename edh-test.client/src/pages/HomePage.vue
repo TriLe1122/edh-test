@@ -1,7 +1,7 @@
 <template>
-<!-- <div v-for="c in cards" :key="c.id">
+<div v-for="c in cards" :key="c.id">
   <Card :card="c"/>
-</div> -->
+</div>
 </template>
 
 <script>
