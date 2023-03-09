@@ -7,7 +7,7 @@ class CardsService{
   async getCards() {
     const res = await scryFallAPI.get("cards/search", {
       params: {
-        q:'winota'
+        q:'koma'
       }
     })
     console.log(res.data.data);
